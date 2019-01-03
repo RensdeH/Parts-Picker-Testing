@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('../parts-picker')
+sys.path.append('../Parts-Picker')
 import api
 
 class ApiTesting(unittest.TestCase):
