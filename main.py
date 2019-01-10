@@ -14,21 +14,25 @@ class ApiTesting(unittest.TestCase):
 		self.assertTrue(api.getArtikelCount()>100)
 		self.assertEqual(len(api.getArtikels()),api.getArtikelCount())
 
-class WindowTesting(unittest.TestCase)
+class WindowTesting(unittest.TestCase):
 	def testWindowVolgorde(self):
+		return None
 		#start factuur.py
 		#Click next 3 times
 		#-check window name
 
 	def testProductGrid(self):
+		return None
 		#dunno
 
 	def testOrderlijst(self):
+		return None
 		#klik een paar dingen
 		#klopt de lijst? inhoud/display?
 
-class LatexTesting(unittest.TestCase)
+class LatexTesting(unittest.TestCase):
 	def testAutoFactuur(self):
+		return None
 		#data['Auto']
 
 class dialogTesting(unittest.TestCase):
