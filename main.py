@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('../Parts-Picker')
+sys.path.append('../parts-picker')
 import api
 import dialogs
 import utils
